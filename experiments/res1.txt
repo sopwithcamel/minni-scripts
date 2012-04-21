@@ -1,0 +1,95 @@
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  781
+Stage 1 time:  699
+Stage 2 time:  82
+Map memory:  2284.01139365
+Map CPU:  228.09346991
+Stage 1 memory:  2421.76887183
+Stage 2 memory:  1109.71289062
+Map Rd kB/s:  10708.3891933
+Map Wr kB/s:  0.13828425096
+St 1 Rd kB/s:  11964.5950787
+St 1 Wr kB/s:  0.154506437768
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  781
+Stage 1 time:  697
+Stage 2 time:  84
+Map memory:  2030.08840829
+Map CPU:  228.088348271
+Stage 1 memory:  2137.39069225
+Stage 2 memory:  1139.73493304
+Map Rd kB/s:  10708.554251
+Map Wr kB/s:  0.143354673496
+St 1 Rd kB/s:  11999.1117217
+St 1 Wr kB/s:  0.160631276901
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  823
+Stage 1 time:  737
+Stage 2 time:  86
+Map memory:  1982.73269004
+Map CPU:  222.889428919
+Stage 1 memory:  2081.00282501
+Stage 2 memory:  1140.58048692
+Map Rd kB/s:  10162.6634265
+Map Wr kB/s:  0.136087484812
+St 1 Rd kB/s:  11348.5373134
+St 1 Wr kB/s:  0.15196743555
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  925
+Stage 1 time:  839
+Stage 2 time:  86
+Map memory:  1927.77163429
+Map CPU:  193.334054054
+Stage 1 memory:  2007.25174128
+Stage 2 memory:  1152.37849746
+Map Rd kB/s:  9041.62602162
+Map Wr kB/s:  0.12972972973
+St 1 Rd kB/s:  9968.41963051
+St 1 Wr kB/s:  0.143027413588
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  928
+Stage 1 time:  842
+Stage 2 time:  86
+Map memory:  1925.97437365
+Map CPU:  192.130387931
+Stage 1 memory:  2005.31585418
+Stage 2 memory:  1149.16592478
+Map Rd kB/s:  8977.77604526
+Map Wr kB/s:  0.131379310345
+St 1 Rd kB/s:  9894.74604513
+St 1 Wr kB/s:  0.144798099762
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Run: CBT buffer size: 157286400, fan-out: 4
+Run: CBT buffer size: 157286400, fan-out: 8
+Run: CBT buffer size: 157286400, fan-out: 16
+Run: CBT buffer size: 157286400, fan-out: 32
+Run: CBT buffer size: 157286400, fan-out: 64

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "vary_input.py", line 9, in <module>
+    subprocess.call("cd ../inputgen/; ./genr " + str(uniq * 1000000) + " " + str(rep) + " 7; cd -")
+  File "/usr/lib/python2.6/subprocess.py", line 480, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.6/subprocess.py", line 633, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.6/subprocess.py", line 1139, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory

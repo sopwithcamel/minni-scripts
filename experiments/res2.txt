@@ -1,0 +1,77 @@
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  792
+Stage 1 time:  706
+Stage 2 time:  86
+Map memory:  2168.34008049
+Map CPU:  217.470959596
+Stage 1 memory:  2289.66021711
+Stage 2 memory:  1172.3864008
+head: write error: Broken pipe
+Map Rd kB/s:  10560.1875253
+Map Wr kB/s:  0.136363636364
+St 1 Rd kB/s:  11846.5559773
+St 1 Wr kB/s:  0.152974504249
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  796
+Stage 1 time:  715
+Stage 2 time:  81
+Map memory:  2225.74316406
+Map CPU:  256.572864322
+Stage 1 memory:  2340.26480551
+Stage 2 memory:  1214.84225502
+Map Rd kB/s:  10507.1469724
+Map Wr kB/s:  0.13567839196
+St 1 Rd kB/s:  11697.4671189
+St 1 Wr kB/s:  0.151048951049
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  782
+Stage 1 time:  696
+Stage 2 time:  86
+Map memory:  2308.07035246
+Map CPU:  220.497442455
+Stage 1 memory:  2434.826952
+Stage 2 memory:  1282.22624455
+Map Rd kB/s:  10695.540601
+Map Wr kB/s:  0.132941176471
+St 1 Rd kB/s:  12017.1160201
+St 1 Wr kB/s:  0.149367816092
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Updated configuration successfully written to: ../../sample.cfg
+vm.drop_caches = 3
+/home/hamur/code/minni/scripts/monitoring
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Map time:  762
+Stage 1 time:  684
+Stage 2 time:  78
+Map memory:  2483.30017122
+Map CPU:  213.55511811
+Stage 1 memory:  2611.11161938
+Stage 2 memory:  1362.49208734
+Map Rd kB/s:  10975.6499213
+Map Wr kB/s:  0.141627296588
+St 1 Rd kB/s:  12227.2591228
+St 1 Wr kB/s:  0.157777777778
+St 2 Rd kB/s:  0.0
+St 2 Wr kB/s:  0.0
+/home/hamur/code/minni/scripts/experiments
+Run: CBT buffer size: 188743680
+Run: CBT buffer size: 251658240
+Run: CBT buffer size: 314572800
+Run: CBT buffer size: 377487360
