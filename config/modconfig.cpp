@@ -17,6 +17,7 @@ DEFINE_uint64(minni__tbb__buffers, 0, "Number of buffers in TBB pipeline");
 DEFINE_uint64(minni__tbb__token_size, 0, "TBB token size");
 DEFINE_uint64(minni__tbb__max_keys_per_token, 0, "TBB max keys per token");
 DEFINE_int32(minni__internal__cbt__buffer_size, 0, "Size of compressed buffer tree buffer");
+DEFINE_int32(minni__internal__cbt__pao_size, 0, "Average size of PAO in CBT");
 DEFINE_int32(minni__internal__cbt__fanout, 0, "Fanout of compressed buffer tree");
 
 bool openConfigFile(Config &cfg, const char* file_name)
@@ -101,6 +102,11 @@ int main(int argc, char **argv)
     if (FLAGS_minni__internal__cbt__buffer_size) {
         Setting& c_cbt_buffer_size = cfg.lookup("minni.internal.cbt.buffer_size");
         c_cbt_buffer_size = (int)FLAGS_minni__internal__cbt__buffer_size;
+    }
+
+    if (FLAGS_minni__internal__cbt__pao_size) {
+        Setting& c_cbt_pao_size = cfg.lookup("minni.internal.cbt.pao_size");
+        c_cbt_pao_size = (int)FLAGS_minni__internal__cbt__pao_size;
     }
 
     if (FLAGS_minni__internal__cbt__fanout) {
