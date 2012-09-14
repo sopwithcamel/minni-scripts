@@ -1,1 +1,9 @@
 config/mod
+
+#SCons
+*.dblite
+./apps/genbst
+./apps/genpr
+./apps/testbst
+./apps/testpr
+*.o

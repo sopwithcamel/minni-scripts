@@ -1,0 +1,19 @@
+import os.path
+
+env = Environment()
+env.Append(CCFLAGS = ['-g','-O2','-Wall'])
+
+#Protobuf generator and tester
+prgen_src = ['pagerank.pb.cc', 'pagerank_proto_proc.cpp']
+prgen_bin = env.Program('genpr', prgen_src, LIBS='protobuf')
+
+prtest_src = ['pagerank.pb.cc', 'pagerank_proto_test.cpp']
+prtest_bin = env.Program('testpr', prtest_src, LIBS='protobuf')
+
+#Boost generator and tester
+bstgen_src = ['pagerank_boost_proc.cpp']
+bstgen_bin = env.Program('genbst', bstgen_src, LIBS='boost_serialization')
+
+bsttest_src = ['pagerank_boost_test.cpp']
+bsttest_bin = env.Program('testbst', bsttest_src, LIBS='boost_serialization')
+
