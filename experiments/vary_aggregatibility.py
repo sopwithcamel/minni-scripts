@@ -13,9 +13,9 @@ for uniq in [60]:
         subprocess.call("cd ~/code/kfs-0.5/build/bin/tools; ./kfsshell -s " + metaserver + " -p 20000 -q rm dataset.txt; ./cptokfs -s " + metaserver + " -p 20000 -d /localfs/hamur/randinput.txt -k ./dataset.txt; cd -", shell=True)
         os.system("sudo echo 1 > /dev/null")
 
-        for (selected, so_name) in [("cbt", "/usr/local/lib/minni/wordcount.so")]:#, ("sparsehash", "/usr/local/lib/minni/wcplain.so")]:
+        for (selected, so_name) in [("cbt", "/usr/local/lib/minni/wc_proto.so")]:#, ("sparsehash", "/usr/local/lib/minni/wcplain.so")]:
         # Generate new config file
             subprocess.call("../config/mod -minni__input_files dataset.txt " + " -minni__internal__selected " + selected + " -minni__so_name " + so_name + " -minni__internal__cbt__buffer_size " + str(buffer_size) + " -minni__internal__cbt__fanout " + str(fanout), shell=True)
-            subprocess.call("cd ../monitoring/; ./run_minni_local.sh; cd -", shell=True)
-            os.system("sudo echo 1 > /dev/null")
-            subprocess.call("sleep 5", shell=True)
+            for iterat in [1, 2, 3]:
+                subprocess.call("cd ../monitoring/; ./run_minni_local.sh; cd -", shell=True)
+                subprocess.call("sleep 5", shell=True)
