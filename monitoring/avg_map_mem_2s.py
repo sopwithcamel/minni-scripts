@@ -32,7 +32,7 @@ for line in file1:
   line = line.split(",")
   mem.append(float(line[0]))
   cpu.append(float(line[1]))
-print "Map memory: ", numpy.mean(mem)
+print "Map memory: (Avg): ", numpy.mean(mem), "(Max): ", max(mem)
 print "Map CPU: ", numpy.mean(cpu)
 
 file2 = open("/localfs/hamur/stage1_tim.temp")
@@ -42,7 +42,7 @@ disk_write = []
 for line in file2:
   line = line.split(",")
   mem.append(float(line[0]))
-print "Stage 1 memory: ", numpy.mean(mem)
+print "Stage 1 memory: (Avg): ", numpy.mean(mem), "(Max): ", max(mem)
 file3 = open("/localfs/hamur/stage2_tim.temp")
 mem = []
 for line in file3:

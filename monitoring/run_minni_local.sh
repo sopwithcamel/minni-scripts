@@ -29,6 +29,6 @@ kill -9 `pgrep test`
 kill -9 `pgrep pidstat`
 
 #echo "Map Statistics" 
-python avg_map_mem_2s.py $tempfiles"/mon.out"
-python avg_diskstats_2s.py $tempfiles"/disk.out"
+python avg_map_mem_1s.py $tempfiles"/mon.out"
+python avg_diskstats_1s.py $tempfiles"/disk.out"
 
